@@ -1,0 +1,22 @@
+{
+  "name": "fconvert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:drl0x_/fconvert.git",
+  "author": "drl0x_",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "yarn build && node ./dist/index.js --to 'hex' 'AAAA'",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "meow": "^12.0.1",
+    "typescript": "^5.0.4"
+  }
+}
